@@ -1,7 +1,7 @@
 {
   "name": "@tedstoychev/request",
   "version": "0.0.1",
-  "description": "",
+  "description": "Promisified version of request().",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
