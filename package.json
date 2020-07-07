@@ -26,5 +26,16 @@
   },
   "dependencies": {
     "request": "^2.88.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedstoychev/request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tedstoychev/request/issues"
+  },
+  "homepage": "https://github.com/tedstoychev/request#readme"
 }
