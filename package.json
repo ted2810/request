@@ -7,8 +7,12 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:release": "tsc -p tsconfig.release.json",
+    "clean": "rimraf ./built",
+    "clean:release": "rimraf ./lib",
+    "start": "node ./built/index.js",
+    "start:release": "node ./lib/index.js",
     "test": "jest",
-    "prepublishOnly": "rimraf ./lib && npm run build:release"
+    "prepublishOnly": "npm run clean:release && npm run build:release"
   },
   "author": "Ted Stoychev",
   "license": "MIT",
